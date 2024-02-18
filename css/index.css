@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kanit:wght@100;800;900&family=Poppins:wght@100;200;300;700;900&family=Quicksand:wght@300;400&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@500&family=Sofia+Sans+Semi+Condensed:ital,wght@0,200;1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main{
+    height: 100vh;
+   background-image: url(../images/point3d-commercial-imaging-ltd-oxeCZrodz78-unsplash.jpg);
+    background-position:bottom;
+    background-size: cover;
+    width: 100%;
+}
+
+.navbar{
+    background-color: rgba(26, 32, 37, 0.834);
+    height: 65px;
+    display: flex;
+   text-align: center;
+   align-items: center;
+}
+
+.logo{
+    padding-left: 50px;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.nav{
+    
+    width: 100%;
+        color: white;
+        display: flex;
+        justify-content: right;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    /* background-color: red; */
+    width: 100px;
+}
+
+.nav ul li a:hover {
+    color: rgb(255, 170, 0);
+}
+
+.intro{
+    background-color: rgba(0, 0, 0, 0.717);
+    height: 230px;
+    width: 40%;
+   margin: 0px auto;
+   margin-top: 150px;
+   /* align-items: center; */
+   padding: 20px;
+}
+
+.welcome{
+    display: flex;
+    font-size: 30px;
+}
+
+.exclusive{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.location{
+    font-weight: 200;
+}
+
+.book{
+    background-color: rgb(200, 142, 49);
+    height: 30px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   text-align: center;
+   align-items: center;
+}

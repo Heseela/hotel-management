@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    color: white;
+}   
+
+.main{
+    height:100vh ;
+    background-image: url(https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdGVsfGVufDB8fDB8fHww);
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+}
+
+.navbar{
+    background-color: rgba(26, 32, 37, 0.834);
+    height: 65px;
+    display: flex;
+   text-align: center;
+   align-items: center;
+}
+
+.logo{
+    padding-left: 50px;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.nav{
+    
+    width: 100%;
+        color: white;
+        display: flex;
+        justify-content: right;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    /* background-color: red; */
+    width: 100px;
+}
+
+.nav ul li a:hover {
+    color: rgb(255, 170, 0);
+}
+
+.form{
+    background-color: rgba(0, 0, 0, 0.487);
+    border: 1px solid black;
+    height: 500px;
+    width: 35%;
+    margin: 0px auto;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    top: 60px;
+}
+
+.heading{
+    /* padding-top: 35px; */
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+}
+
+#name{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    margin: 0px auto;
+    margin-top: 25px;
+}
+
+#password{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    margin: 0px auto;
+    margin-top: 25px;
+}
+
+#email{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    margin: 0px auto;
+    margin-top: 25px;
+}
+
+
+.inp{
+    height: 300px;
+}
+
+button{
+    border: none;
+    height: 45px;
+    margin: 20px;
+    width: 30%;
+    text-align: center;
+    font-size: 17px;
+    background-color: red;
+    color: white;
+    margin: 0px auto;
+}
+
+.btn{
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    margin: 0;
+    padding-left: 40px;
+    color: red;
+    font-size: 12px;
+}

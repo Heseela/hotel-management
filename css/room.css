@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kanit:wght@100;800;900&family=Poppins:wght@100;200;300;700;900&family=Quicksand:wght@300;400&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@500&family=Sofia+Sans+Semi+Condensed:ital,wght@0,200;1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main{
+    height: 1150px;
+   background-image: url(../images/runnyrem-LfqmND-hym8-unsplash.jpg);
+    background-position:bottom;
+    background-size: cover;
+    width: 100%;
+}
+
+.navbar{
+    background-color: rgba(26, 32, 37, 0.834);
+    height: 65px;
+    display: flex;
+   text-align: center;
+   align-items: center;
+}
+
+.logo{
+    padding-left: 50px;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.nav{
+    
+    width: 100%;
+        color: white;
+        display: flex;
+        justify-content: right;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    /* background-color: red; */
+    width: 100px;
+}
+
+.nav ul li a:hover {
+    color: rgb(255, 170, 0);
+}
+
+.search{
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 30px;
+}
+
+.searchbox{
+   background-color:rgb(255, 170, 0);
+    height: 30px;
+    width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: hidden;
+   font-size: 16px;
+}
+
+.select-box{
+height: 30px;
+width: 200px;
+}
+
+
+.rooms{
+    height: 800px;
+    /* background-color: antiquewhite; */
+}
+
+.all-rooms{
+    margin-top: 50px;
+    /* background-color: aqua; */
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.room-description{
+    color: rgb(98, 97, 97);
+    background-color: rgb(255, 255, 255);
+    width: 18%;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.439);
+}
+
+.des{
+padding: 10px 0px 0px 10px;
+font-size: 14px;
+}
+
+.img1{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/point3d-commercial-imaging-ltd-oxeCZrodz78-unsplash.jpg);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.img2{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/steven-ungermann-aRT5UCf2MYY-unsplash.jpg);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img3{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/oning-gdJpDTU85ek-unsplash.jpg);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img4{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/Screenshot\ 2024-01-01\ at\ 20.52.00.png);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img5{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/point3d-commercial-imaging-ltd-i1kzMmWYQT4-unsplash.jpg);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img6{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/reisetopia-nRS3ClHbNGQ-unsplash.jpg);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img7{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/albert-vincent-wu-fupf3-xAUqw-unsplash.jpg);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img8{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* background-image: url(../images/dad-hotel-P6B7y6Gnyzw-unsplash.jpg); */
+    background-image: url(../images/Screenshot2\ 2024-01-01\ at\ 20.55.58.png);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img9{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/khadeeja-yasser-msFZE7d9KB4-unsplash.jpg);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img10{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/reisetopia-pSDe7ePo0Tc-unsplash.jpg);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img11{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/visualsofdana-T5pL6ciEn-I-unsplash.jpg);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img12{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/dad-hotel-P6B7y6Gnyzw-unsplash.jpg);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img13{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/sasha-kaunas-67-sOi7mVIk-unsplash.jpg);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img14{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/khach-s-n-tinh-nhan-venice-1-hotel-FL2cq-GgnWQ-unsplash.jpg);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img15{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(../images/Screenshot3\ 2024-01-01\ at\ 20.57.28.png);
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+
